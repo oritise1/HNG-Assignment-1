@@ -1,0 +1,53 @@
+body{
+    max-width: 100%;
+    position: absolute;
+}
+[data-testid="slackDisplayName"]{
+    color: blue;
+}
+.texthead  {
+    width: 230px;
+    height: 50px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 25px;
+    }
+.texth3 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+.h1text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+    /* margin: 50px 10px; */
+}
+.pagewrapper {
+    width: 100%;
+    background: #f4f4f4;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 60px;
+    row-gap: 5px;
+    height: 900px;
+    margin-top: 20px;
+}
+.together:hover {
+    background-color: #ff0000;
+    -webkit-text-fill-color: #f4f4f4;
+}
+.together {
+    width: 280px;
+    height: 250px;
+    padding: 5px 5px;
+    background-color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10%
+}
