@@ -1,6 +1,7 @@
-body{
+/* body{
     max-width: 100%;
     position: absolute;
+    background-color: cadetblue;
 }
 [data-testid="slackDisplayName"]{
     color: blue;
@@ -26,7 +27,6 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 58px;
-    /* margin: 50px 10px; */
 }
 .pagewrapper {
     width: 100%;
@@ -50,4 +50,115 @@ body{
     margin-top: 20px;
     cursor: pointer;
     border-radius: 10%
+}
+.sect{
+    width: 40%;
+    height: 42%;
+    background-color: #fff;
+    padding: 5% 5%;
+    border-radius: 5%;
+}
+.sectInfo{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+.currentStatus{
+    width: 20%;
+    height: 20%;
+    background-color: #fff;
+    display: flex;
+    margin: -20% 20%;
+} */
+.pagewrapper {
+    width: 90%;
+    max-width: 1200px; 
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+.sect {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.currentStatus {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.together:hover {
+    background-color: #ff0000;
+    color: #f4f4f4; 
+    border-radius: 5%;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+
+.texthead, .texth3, .h1text, .copy {
+    font-size: 1.2rem; 
+    font-weight: 500; 
+}
+.sect {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; 
+}
+.currentStatus {
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+.h1text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.footer{
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    color: #f4f4f4;
+    height: 160px;
+}
+.copy{
+    margin-top: 20px;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    color: #fff;
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+    .pagewrapper {
+        grid-template-columns: 1fr; 
+    }
+
+    .together {
+        width: 100%; 
+        border-radius: 30px;
+    }
+
+    .sect, .currentStatus {
+        width: 100%; 
+        max-width: none; 
+    }
 }

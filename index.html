@@ -17,21 +17,21 @@
 
 <body>
     <header>
-        <h1>Welcome To My Goal Page</h1>
+        <h1 class="h1text" style="text-align: center;">Welcome To My Goal Page</h1>
     </header>
-    <section>
-        <h2>
+    <section class="sect">
+        <h2 class="sectInfo">
             Slack Infomation
         </h2>
         <h2>
-            Slack Display Name:<span data-testid="slackDisplayName"></span>
+            Slack Display Name:<span data-testid="slackDisplayName" class="displayName"></span>
         </h2>
-        <p>Email:</p><a href="mailto:ikareemabiodun730@gmail.com" rel="nonreferrer" target="_blank"> <span
+        </p><a href="mailto:ikareemabiodun730@gmail.com" rel="nonreferrer" target="_blank" class="displayLink">Email: <span
                 data-testid="slackEmail"></span></a>
-        <img src="image1.jpg" alt="no image" data-testid="slackProfilePicture" />
+        <img src="image1.jpg" alt="no image" data-testid="slackProfilePicture" class="displayImg" />
     </section>
-    <section>
-        <p id="setDate"> <span data-testid="currentDay"></span></p>
+    <section class="currentStatus">
+        <p id="setDate"> Day Of The Week: <span data-testid="currentDay"></span></p>
         <p id="time"> Time (UTC): <span data-testid="currentTimeUTC"></span></p>
     </section>
     <section>
@@ -104,11 +104,13 @@
                 </ul>
             </div>
     </section>
-    <footer>
+    <footer class="footer">
         <h3>Check out this Intresting Resources:</h3>
-        <a href="hng.tech/learn" rel="nonreferrer" target="_blank"> <span data-testid="hngLink"></span></a>
-        <a href="keyword.dog" rel="nonreferrer" target="_blank"> <span data-testid="keywordLink"></span></a>
+        <a href="hng.tech/learn" rel="nonreferrer" target="_blank"> <span data-testid="hngLink"></span></a><br />
+        <a href="keyword.dog" rel="nonreferrer" target="_blank"> <span data-testid="keywordLink"></span></a><br />
         <a href="scrapeanyweb.site" rel="nonreferrer" target="_blank"> <span data-testid="scrapeanywebLink"></span></a>
+        <div><span class="line"></span></div>
+        <p className='copy'> Copyright &copy; 2023 Hashtag Developer. All Rights Reserved</p>
     </footer>
 </body>
 
