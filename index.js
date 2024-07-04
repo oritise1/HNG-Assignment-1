@@ -8,12 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const keywordLink = document.querySelector('[data-testid="keywordLink"]');
     const scrapeanywebLink = document.querySelector('[data-testid="scrapeanywebLink"]');
 
-    slackDisplayName.textContent = "Oritse";
-    slackEmail.textContent = "ikareemabiodun730@gmail.com";
-    hngLink.textContent = "HNG Learn";
-    keywordLink.textContent = "KeyWord Search Tool";
-    scrapeanywebLink.textContent = "Web Scraping Tool"
-
     function updateTime() {
         const now = new Date();
         const hour = now.getUTCHours().toString().padStart(2, '0');

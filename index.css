@@ -59,19 +59,19 @@ img{
     text-align: center;
     color: #f4f4f4;
     height: 160px;
+    text-decoration: none;
 }
 .copy{
     margin-top: 20px;
-}
-.line{
-    width: 90%;
-    height: 1px;
-    color: #fff;
 }
 a{
     color: red;
     text-decoration: none;
     font-weight: 700;
+}
+.line{
+    list-style-type: none;
+    color: #ff0000;
 }
 @media only screen and (max-width: 768px) {
     .pagewrapper {
